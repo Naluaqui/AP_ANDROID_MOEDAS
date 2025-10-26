@@ -3,7 +3,7 @@ import { styles } from "./styles";
 import { onChangeText } from "react-native";
 
 
-export function Input(value, onChangeText, label) {
+export function Input({value, onChangeText, label}) {
 
     return (
         <View style={styles.container}>
